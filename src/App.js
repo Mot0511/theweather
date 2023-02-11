@@ -38,11 +38,12 @@ const App = () => {
     return (
         <div>
           <h1 className={cl.heading}>Погода в городе {city}</h1>
-            {
-                loading
-                    ? <Loading />
-                    : <Main temp={temp} daynighttemp={daynighttemp} otherdata={otherdata}/>
-            }
+            <Main temp={temp} daynighttemp={daynighttemp} otherdata={otherdata}/>
+            {/*{*/}
+            {/*    loading*/}
+            {/*        ? <Loading />*/}
+            {/*        :*/}
+            {/*}*/}
 
             <Citys getCity={getCity} />
         </div>
