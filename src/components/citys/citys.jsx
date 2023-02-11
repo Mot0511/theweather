@@ -11,7 +11,7 @@ const Citys = ({getCity}) => {
             <hr/>
             <button className={cl.city} onClick={() => getCity('Киров')}>Киров</button>
             <button className={cl.city} onClick={() => getCity('Москва')}>Москва</button>
-            <button className={cl.city} onClick={() => getCity('Санкт-Петербург')}>Санк-Питербург</button>
+            <button className={cl.city} onClick={() => getCity('Санкт-Петербург')}>Санкт-Петербург</button>
         </div>
     );
 };
