@@ -1,0 +1,53 @@
+.citys{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 340px;
+    background-color: #D9D9D9;
+}
+.search{
+    width: 100%;
+    height: 55px;
+    border: 0;
+    background: none;
+    padding-left: 10px;
+    color: white;
+    font-size: 32px;
+}
+.search::placeholder{
+    color: white;
+    font-size: 32px;
+}
+hr{
+    color: white;
+}
+.city{
+    width: 100%;
+    height: 55px;
+    background: none;
+    border: 0;
+    color: white;
+    font-size: 32px;
+    text-align: start;
+    padding-left: 10px;
+    transition: all 0.2s;
+}
+.city:hover{
+    background-color: #BEBEBEFF;
+}
+.searchBt{
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: 0;
+    color: white;
+    font-size: 25px;
+    text-align: start;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    transition: all 0.2s;
+}
+.searchBt:hover{
+    background-color: #BEBEBEFF;
+}
